@@ -24,7 +24,7 @@ class Scheduler:
     def f(self):
         pass
 
-#     Call
+#     Call the file
 
 # Step 1(Alternative): Using Lists
 class Scheduler:
