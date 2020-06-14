@@ -16,11 +16,11 @@ from math import pow
 #    should give us an approximation of π / 4.
 
 def generate():
-    return (uniform(-1, 1), uniform(-1, 1))
+    return uniform(-1, 1), uniform(-1, 1)
 
 
-def is_in_circle(coords):
-    return coords[0] * coords[0] + coords[1] * coords[1] < 1
+def is_in_circle(coordinates):
+    return coordinates[0] * coordinates[0] + coordinates[1] * coordinates[1] < 1
 
 
 def estimate():
