@@ -1,4 +1,4 @@
-# DAILY CODING CHALLENGE 17
+# DAILY CODING CHALLENGE 18
 # Question asked by: GOOGLE
 # Given an array of integers and a number k, where 1 <= k <= length of the array, compute the maximum values of
 # each sub-array of length k.
@@ -38,7 +38,7 @@ def max_of_sub_arrays1(lst, k):
     print(lst[q[0]], end=' ')
 
 
-# Step 4: Calling the main function which calls these above functions and displays the result
+# Step 2: Calling the main function which calls these above functions and displays the result
 array = [10, 5, 2, 7, 8, 7]
 k = 3
 print(max_of_sub_arrays(array, k))
