@@ -51,7 +51,7 @@ array = ['G', 'B', 'R', 'R', 'B', 'R', 'G']
 result1 = partition1(array)
 result2 = partition2(array)
 for x in range(len(result1)):
-    print(result1[x],end=' ')
+    print(result1[x], end=' ')
 print('\n')
 for x in range(len(result2)):
-    print(result2[x],end=' ')
+    print(result2[x], end=' ')
