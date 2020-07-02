@@ -2,8 +2,8 @@
 # Question asked by: GOOGLE
 # Given an array of strictly the characters 'R', 'G', and 'B', segregate the values of the array so that all the Rs
 # come first, the Gs come second, and the Bs come last. You can only swap elements of the array. Do this in linear
-# time and in-place. For example, given the array ['G', 'B', 'R', 'R', 'B', 'R', 'G'], it should become ['R', 'R',
-# 'R', 'G', 'G', 'B', 'B'].
+# time and in-place. For example, given the array ['G', 'B', 'R', 'R', 'B', 'R', 'G'], it should become
+# ['R', 'R','R', 'G', 'G', 'B', 'B'].
 
 
 # Step 1:It may be easier to first consider an easier problem: one with only two possible values, say 'R' and 'G'.
